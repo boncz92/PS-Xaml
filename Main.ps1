@@ -1,7 +1,7 @@
 #########################################################################
 #                        Import Modules                                 #
 #########################################################################
-
+    Import-Module .\Modules\Console_Manipulation.psm1
 
 #########################################################################
 #                        Import Assemblies                              #
@@ -39,4 +39,5 @@
         Write-Host -ForegroundColor Red "You clicked Button 1"
     })
 
+    Hide-Console
     $Main_Form.ShowDialog() | Out-Null
