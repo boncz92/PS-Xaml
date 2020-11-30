@@ -34,7 +34,7 @@
 #########################################################################
 #                        Main Functionality                             #
 #########################################################################
-    $Button_1.Content = "Im a button"
+    #$Button_1.Content = "Im a button"
     $Button_1.Add_Click({
         Write-Host -ForegroundColor Red "You clicked Button 1"
     })
